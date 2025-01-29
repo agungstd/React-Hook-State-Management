@@ -39,7 +39,7 @@ function ListKontak() {
           ) : (
             <tr>
               <td colSpan={4}>
-                {getKontakError ? getKontakError : "Data Not Found"}
+                {getKontakError ? getKontakError : "Data Not Available"}
               </td>
             </tr>
           )}
